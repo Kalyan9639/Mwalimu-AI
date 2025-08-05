@@ -1,0 +1,16 @@
+# Environment variables
+# This is the most important line - it tells Git to ignore your secrets file.
+.env
+
+# Python virtual environment folder
+venv/
+/venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Local database directories (good practice)
+user_data_db/
+content_db/
